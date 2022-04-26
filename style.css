@@ -1,0 +1,67 @@
+.gasnoble
+{background-color:PaleTurquoise;}
+
+.nometales
+{background-color:DarkOrchid;}
+
+.halogenos
+{background-color:violet;}
+
+.metalesdetransicion
+{background-color:khaki}
+
+.metalesalcalinos
+{background-color:AntiqueWhite;}
+
+.alcalinosterreos
+{background-color:Tan;}
+
+.metaloides
+{background-color:lime}
+
+.otrosmetales
+{background-color:Gold;}
+
+.lantanidos
+{background-color:Lemonchiffon;}
+.actinidos
+{background-color:PaleGreen;}
+
+td:hover{opacity: 0.2;
+transition:all;
+visibility:visible;
+background: #00ffff; transform:scale(1.5);}
+
+td{transition: width 1s, height 1s, transform 1s;}
+
+.zoom{transition: width 1s, height 1s, transform 1s;}
+
+.zoom:hover{transform:scale(1.5);}
+
+.modal-contenido{background-color:rgba(40,144,51,0.5);
+color:#ffffff;
+width:300px;
+padding: 10px 20px;
+box-shadow: 5px 5px 5px ;rgba(12,12,12,0.527)
+margin: 2rem auto;
+position: relative;
+border-style:outset;
+border-radius: 6px;
+overflox:hidden;
+z-index:1;
+backdrop-filter:saturate(180%) blur(20px);}
+
+.modal{background-color:rgba(0,0,0,0.6);
+position:fixed;
+top:0;
+right:0;
+bottom:0;
+left:0;
+opacity:0;
+pointer-events:none;
+transition:all 1s;
+}
+:target {opacity:1;
+pointer-events:auto;
+border-radius:8px;
+}
